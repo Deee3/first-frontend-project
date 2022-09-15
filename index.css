@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images2.alphacoders.com/106/1069903.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 120%;
+}
+
+
+.card{
+    background: #00000080;
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 48px;
+    outline: none;
+    background: #00000030;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+
+button:hover{
+    background: #00000080;
+}
+
+input#searchbar:hover{
+    background: #00000080; 
+}
+
+input#searchbar{
+    border-radius: 24px;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background: #00000030;
+    color: whitesmoke;
+    transition: 0.2s ease-in-out;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 60px);
+
+}
+
+h1.temperature{
+    margin: 0;
+    margin-bottom: 0.3em;
+}
